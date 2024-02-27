@@ -4,15 +4,15 @@ import java.util.Set;
 public class NoteBookMain {
         public static void main(String[] args) {
         Set<Notebook> notebooks = new HashSet<>();
-        // добавьте ноутбуки в множество notebooks
+        s
 
         Map<String, Object> filterCriteria = new HashMap<>();
-        // задайте критерии фильтрации в Map, например: filterCriteria.put("ram", 8);
+      
 
-        // запросите минимальные значения для указанных критериев у пользователя и сохраните параметры фильтрации в Map
+       
 
         Set<Notebook> filteredNotebooks = Notebook.filterNotebooks(notebooks, filterCriteria);
-        // выведите filteredNotebooks
+    
     }
 }
 
