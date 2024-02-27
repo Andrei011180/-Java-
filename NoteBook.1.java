@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class NoteBookMain {
+public class NoteBook {
         public static void main(String[] args) {
         Set<Notebook> notebooks = new HashSet<>();
         
